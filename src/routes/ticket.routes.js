@@ -1,6 +1,6 @@
 "use strict";
 
-const { Router } = require("express");
+const { Router }    = require("express");
 const { sortTicket } = require("../controllers/ticket.controller");
 
 const router = Router();
