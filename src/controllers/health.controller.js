@@ -2,12 +2,12 @@
 
 /**
  * GET /health
- * Simple liveness check. Returns 200 within the required 10s window.
+ * Liveness check — must respond within 10 seconds (spec requirement).
  */
 function healthCheck(req, res) {
   return res.status(200).json({
-    status: "ok",
-    service: "QueueStorm API",
+    status:    "ok",
+    service:   "QueueStorm API",
     timestamp: new Date().toISOString(),
   });
 }
