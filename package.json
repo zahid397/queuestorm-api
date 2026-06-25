@@ -1,11 +1,11 @@
 {
   "name": "queuestorm-api",
   "version": "1.0.0",
-  "description": "QueueStorm Warmup - Mock Preliminary Task API for bKash SUST CSE Carnival 2026",
-  "main": "server.js",
+  "description": "QueueStorm Warmup API - bKash SUST CSE Carnival 2026",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -13,7 +13,5 @@
   "dependencies": {
     "express": "^4.21.2"
   },
-  "keywords": ["hackathon", "bkash", "queuestorm", "express"],
-  "author": "zahid397",
   "license": "MIT"
 }
