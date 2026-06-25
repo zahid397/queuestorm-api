@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: queuestorm-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: LOG_LEVEL
+        value: info
